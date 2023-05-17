@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Загальні стилі */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Стилі панелі фільтрів */
+#filter-panel {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#filter-panel h2 {
+  text-align: center;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.filter label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter input,
+.filter select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Стилі карток елементів */
+#card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+.card h3:hover {
+  font-size: 1.2em;
+  transition: font-size 0.3s ease;
+}
+
+.card p {
+  color: #555555;
+}
+
+
+/* Стилі підвалу */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
